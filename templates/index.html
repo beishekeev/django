@@ -69,7 +69,9 @@
                                                 type="submit">Update
                                         </button>
                                     </a>
-                                    <form method="post"
+
+
+<form method="post"
                                           action="{% url 'delete' task.id %}">
                                         {% csrf_token %}
                                         <button class='btn btn-danger' type='submit'>
@@ -88,3 +90,4 @@
 </div>
 </body>
 </html>
+`
